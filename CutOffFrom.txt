@@ -1,11 +1,11 @@
-Function deicription:
+Function description:
 We're making a list of music that show singer,style,data and so on of songs.
 As a user, you can edit,delete or post your own songs on it
 This is our first step to build up a musical information platform.
 
 
-Cut Off From
-Music
-LilDodge XingyuanC JunzheYang huangweijia
-XingyuanC
-JunzheYang
+Team's name:Cut Off From
+GitHub project:Music
+username:LilDodge XingyuanC JunzheYang huangweijia
+Product Owner:XingyuanC
+Scrum Master:JunzheYang

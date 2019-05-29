@@ -1,0 +1,10 @@
+﻿team name:Cut Off From
+Project Name:Music
+GitHub data LilDodge
+Product owner:huangweijia XingyuanC JunzheYang LilDodge
+Scrum Master: LilDodge
+GitHUb URL:  https://github.com/LilDodge/Music
+GitHub
+ last week ：
+ Link the data to the music playform so that users can listen the song they choose, 
+ and our website will be divided into IOS and Android.

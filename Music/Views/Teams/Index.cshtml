@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Music.Models.Team>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<a href="https://localhost:44384/"><h1>Return</h1></a>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Song)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Style)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PictureUrl)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Song)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Style)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PictureUrl)
+            </td>
+            <td>
+                <img src="~/library/1.png" style="width:50px; height:50px">
+            </td>
+            
+            <td>
+                <audio controls="controls">
+                    <source src="~/lib2/1.mp3" type="audio/mpeg" />
+                </audio>
+                <audio controls="controls">
+                    <source src="~/lib2/%e9%bb%91%e7%8c%ab%20-%20%e8%bf%91%e6%88%91%e8%80%85%e7%94%9c%e5%91%80.mp3" type="audio/mpeg" />
+                </audio>
+                
+
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>
